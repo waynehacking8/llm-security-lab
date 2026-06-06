@@ -30,8 +30,6 @@ ETHICAL NOTE: This technique is for authorized testing only.
 
 import json
 import subprocess
-import random
-import math
 
 
 def query_model(prompt: str, system: str = "", model: str = "qwen2.5:7b") -> str:
